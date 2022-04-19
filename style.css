@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    
+}
+
+.cursor {
+    width: 35px;
+    height: 35px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    opacity: 0.8;
+}
+
+.logo img{
+    height: 140px;
+    position: relative;
+    right: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 20vh;;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 50;
+    position: relative;
+    right: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links li{
+    list-style: none;
+    
+}
+
+.frontpage-images{
+    display: flex;
+
+}
+
+.foto-1 img{
+    height: 385px;
+    position: relative;
+    left: 220px;
+    top: 70px;
+    box-shadow: 10px 10px lightgray;
+    
+}
+
+.foto-2 img{
+    height: 460px;
+    position: relative;
+    left: 300px;
+    top: 20px;
+    box-shadow: 10px 10px lightgray;
+    
+}
+
+.foto-3 img{
+    height: 310px;
+    position: relative;
+    left: 390px;
+    top: 60px;
+    box-shadow: 10px 10px lightgray;
+
+}
+
+.foto-4 img{
+    height: 430px;
+    position: relative;
+    left: 1240px;
+    top: -150px;
+    box-shadow: 10px 10px lightgray;
+
+}
+
+.main-text{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(19, 19, 19);
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 195px;
+    top: 90px;
+    
+}
+
+
