@@ -23,6 +23,8 @@ body{
     pointer-events: none;
 
     z-index: 1; /* zorgt ervoor dat het boven de andere lagen staat */
+
+    display: none; /* later verwijderen */
 }
 
 .logo img{
