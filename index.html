@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academie | Jan Portaels</title>
+    <title>Home | Kunstacademie Vilvoorde</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+
+    <link  rel="shortcut icon" type="image/svg" href="Favico.svg"> <!-- Dit gaat een logo geven op de tablad van de browser -->
 
 </head>
 <body>
@@ -27,26 +27,13 @@
       <li><a href="#">Contact</a></li>
     </ul>
 
-    
-
-    
+    <!-- Hier tussen komt er een zoekbalk -->
 
   </nav>
 
-  <div class="cursor"></div>
-  
-  <script>
+  <div class="cursor"></div> <!-- Dit geeft een kleurtje bij het bewegen van de muis -->
 
-    const cursor = document.querySelector('.cursor');
-
-    document.addEventListener('mousemove' , e => {
-      cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
-
-    })
-
-  </script>
-
-   <div class="frontpage-images">
+  <div class="Voorpagina-Afbeeldingen">
 
     <div class="foto-1">
       <img src="Paashaas.jpg" alt="Paashaas">
@@ -60,18 +47,16 @@
       <img src="Kamer.jpg" alt="Kamer ">
     </div>
 
-   </div>
+  </div>
 
    <div class="main-text">
      <h1>Stedelijke academie voor <br>
       beeldende kunsten JAN PORTAELS</h1>
    </div>
 
-  </div>
-
    <div class="foto-4">
      <img src="Tijger.jpg" alt="Tijger">
+   </div>
   
-    
 </body>
 </html>
