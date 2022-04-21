@@ -12,4 +12,7 @@ const cursor = document.querySelector('.cursor');
             }, 500)
         })
 
+
+      
+
   

@@ -10,4 +10,3 @@
 
 - Een zoekbalk rechts bovenaan maken
 
-- Andere interessante zaken plaatsen op de voorpagina 
