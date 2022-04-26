@@ -72,37 +72,34 @@ nav{
 
 .foto-1 img{
     height: 385px;
-    position: relative;
-    left: 220px;
-    top: 70px;
+    margin-left: 58%;
+    margin-top: 15%;
+    
     box-shadow: 10px 10px lightgray;
     
 }
 
 .foto-2 img{
     height: 460px;
-    position: relative;
-    left: 300px;
-    top: 20px;
+    margin-top: 5%;
+    margin-left: 65%;
     box-shadow: 10px 10px lightgray;
     
 }
 
 .foto-3 img{
     height: 310px;
-    position: relative;
-    left: 390px;
-    top: 60px;
+    margin-top: 15%;
+    margin-left: 95%;
     box-shadow: 10px 10px lightgray;
 
 }
 
 .foto-4 img{
     height: 430px;
-    position: relative;
-    left: 1240px;
-    top: -150px;
     box-shadow: 10px 10px lightgray;
+    margin-left: -40%;
+    margin-top: -10%;
 
 }
 
@@ -112,10 +109,11 @@ nav{
     color: rgb(19, 19, 19);
     font-size: 23px;
     display: flex;
-    justify-content: center;
-    position: relative;
-    right: 195px;
-    top: 90px;
+    justify-content: space-around;
+    
+    margin-left: 7%;
+    margin-top: 3%;
+   
     
 }
 
@@ -136,7 +134,7 @@ html {
 
 body {
   box-sizing: border-box;
-  background-color: rgba(229, 229, 229, 0.308);
+  background-color: rgb(255, 255, 255);
   font-family: "Sarabun", sans-serif;
 
 }
@@ -204,6 +202,7 @@ h1 {
     display: flex;
     justify-content: center;
     font-size: 17px;
+    margin-top: 5%;
 
 }
 
@@ -211,6 +210,7 @@ h1 {
     display: flex;
     justify-content: center;
     font-size: 30px;
+    margin-top: 0.9%;
     
 
 }
@@ -276,18 +276,27 @@ position: absolute;
 }
 
 .kaderrrr{
-    position: absolute;
-      bottom:40px;
-      width: 21%;
-      background-color: rgb(0, 55, 219);
-      opacity: 80%;
-      color: white;
-      font-weight: bold;
-      font-size: 20px;
+    position: relative;
+    bottom:40px;
+    width: 100%;
+    background-color: rgb(0, 55, 219);
+    opacity: 80%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
     
     }
 
+   main{
+     display: flex;
 
+    justify-content: center;
+   }
+
+   .alles{
+     width: 1000px;
+     
+   }
 
 
 
