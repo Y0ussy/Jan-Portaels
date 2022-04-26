@@ -13,7 +13,7 @@ body{
 .cursor {
     width: 35px;
     height: 35px;
-    background-color: rgb(106, 255, 198);
+    background-color: rgb(89, 218, 250);
     border-radius: 50%;
     opacity: 0.4;
     position: absolute;
@@ -67,13 +67,13 @@ nav{
 
 .Voorpagina-Afbeeldingen{
     display: flex;
+    justify-content: space-around;
 
 }
 
 .foto-1 img{
     height: 385px;
-    margin-left: 58%;
-    margin-top: 15%;
+   
     
     box-shadow: 10px 10px lightgray;
     
@@ -81,16 +81,14 @@ nav{
 
 .foto-2 img{
     height: 460px;
-    margin-top: 5%;
-    margin-left: 65%;
+    
     box-shadow: 10px 10px lightgray;
     
 }
 
 .foto-3 img{
     height: 310px;
-    margin-top: 15%;
-    margin-left: 95%;
+    
     box-shadow: 10px 10px lightgray;
 
 }
@@ -98,8 +96,7 @@ nav{
 .foto-4 img{
     height: 430px;
     box-shadow: 10px 10px lightgray;
-    margin-left: -40%;
-    margin-top: -10%;
+  
 
 }
 
@@ -111,8 +108,6 @@ nav{
     display: flex;
     justify-content: space-around;
     
-    margin-left: 7%;
-    margin-top: 3%;
    
     
 }
@@ -142,14 +137,14 @@ body {
 .container {
   width: 25rem;
   height: 100%;
-  margin: 0 1rem;
+  
   position: relative;
   border-color: rgb(0, 114, 76);
 
 }
 
 h1 {
-  margin: 2rem;
+  
 
 }
 
@@ -202,7 +197,7 @@ h1 {
     display: flex;
     justify-content: center;
     font-size: 17px;
-    margin-top: 5%;
+    
 
 }
 
@@ -210,7 +205,7 @@ h1 {
     display: flex;
     justify-content: center;
     font-size: 30px;
-    margin-top: 0.9%;
+    
     
 
 }
@@ -253,22 +248,22 @@ h1 {
 }
 
 .kaderr{
-  position: absolute;
+  position: relative;
   bottom:40px;
-  width: 21%;
-  background-color: rgb(0, 55, 219);
-  opacity: 80%;
+  width: 100%;
+  background-color: rgb(219, 135, 56);
+  padding: 2%;
   color: white;
   font-weight: bold;
   font-size: 20px;
 }
 
 .kaderrr{
-position: absolute;
-  bottom:29px;
-  width: 21%;
-  background-color: rgb(0, 55, 219);
-  opacity: 80%;
+  position: relative;
+  bottom:40px;
+  width: 100%;
+  background-color: rgb(39, 79, 199);
+  padding: 2%;
   color: white;
   font-weight: bold;
   font-size: 20px;
@@ -279,8 +274,8 @@ position: absolute;
     position: relative;
     bottom:40px;
     width: 100%;
-    background-color: rgb(0, 55, 219);
-    opacity: 80%;
+    background-color: rgb(47, 209, 160);
+    padding: 2%;
     color: white;
     font-weight: bold;
     font-size: 20px;
@@ -288,13 +283,12 @@ position: absolute;
     }
 
    main{
-     display: flex;
-
+    display: flex;
     justify-content: center;
    }
 
    .alles{
-     width: 1000px;
+     width: 1500px;
      
    }
 
