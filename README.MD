@@ -1,12 +1,8 @@
+**
+28/4/2022
+
+- Footer maken
 
 
-** 19/04/2022
 
-- zal menu fixen
-
----
-
-** 21/04/2022
-
-- Een zoekbalk rechts bovenaan maken
 

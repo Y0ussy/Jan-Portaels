@@ -29,10 +29,8 @@ body{
 }
 
 .logo img{
-  height: 200px;
-  position: relative;
-  right: 10px
-
+  height: 100px;
+  
 }
 
 nav{
@@ -46,12 +44,16 @@ nav{
 .nav-links{
   display: flex;
   justify-content: space-around;
-  width: 38%;
+  width: 34%;
   font-family: 'Acme', sans-serif;
-  font-size: 18px;
+  font-size: 19.5px;
   position: relative;
   right: 10px;
 
+}
+
+.nav-links a:hover{
+  color: rgb(109, 109, 109);
 }
 
 .nav-links a {
@@ -192,7 +194,7 @@ body{
   justify-content: center;
   font-size: 17px;
   font-family: 'Acme', sans-serif;
-    
+  margin-top: 70px;
 }
 
 .info, p{
@@ -200,22 +202,17 @@ body{
   justify-content: center;
   font-size: 30px;
   font-family: 'Acme', sans-serif;
+  margin-top: 10px;
     
 }
 
 .Beeldatelier{
   display: flex;
   justify-content: space-evenly;
-  position: relative;
-  top: 50px;
-     
-}
-
-.Beeldatelier{
-  position: relative;
   text-align: center;
   color: white;
-
+  margin-top: 50px;
+     
 }
 
 .Jongeren img{
