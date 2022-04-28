@@ -1,154 +1,147 @@
+
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
 }
 
 body{
-    margin: 0;
-    height: 100vh;
+  margin: 0;
+  height: 100vh;
+  font-family: 'Acme', sans-serif;
     
 }
 
-.cursor {
-    width: 35px;
-    height: 35px;
-    background-color: rgb(89, 218, 250);
-    border-radius: 50%;
-    opacity: 0.4;
-    position: absolute;
-    transition-duration: 200ms;
-    transition-timing-function: ease-out;
-    animation: cursorAnim .5s infinite alternate;
-    pointer-events: none;
-
-    z-index: 1; /* zorgt ervoor dat het boven de andere lagen staat */
+.cursor{
+  width: 35px;
+  height: 35px;
+  background-color: rgb(89, 218, 250);
+  border-radius: 50%;
+  opacity: 0.4;
+  position: absolute;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  animation: cursorAnim .5s infinite alternate;
+  pointer-events: none;
+  z-index: 1; /* zorgt ervoor dat het boven de andere lagen staat */
 
 }
 
 .logo img{
-    height: 110px;
-    position: relative;
-    right: 10px
+  height: 200px;
+  position: relative;
+  right: 10px
 
 }
 
 nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 20vh;;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 20vh;;
     
 }
 
 .nav-links{
-    display: flex;
-    justify-content: space-around;
-    width: 30%;
-    font-family: 'DM Serif Display', serif;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 50;
-    position: relative;
-    right: 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 38%;
+  font-family: 'Acme', sans-serif;
+  font-size: 18px;
+  position: relative;
+  right: 10px;
 
 }
 
 .nav-links a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 
 }
 
 .nav-links li{
-    list-style: none;
+  list-style: none;
     
 }
 
 .Voorpagina-Afbeeldingen{
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 
 }
 
 .foto-1 img{
-    height: 385px;
-   
-    
-    box-shadow: 10px 10px lightgray;
+  height: 385px;
+  box-shadow: 10px 10px lightgray;
+  margin-top: 30px;
     
 }
 
 .foto-2 img{
-    height: 460px;
-    
-    box-shadow: 10px 10px lightgray;
+  height: 460px;
+  box-shadow: 10px 10px lightgray;
     
 }
 
 .foto-3 img{
-    height: 310px;
-    
-    box-shadow: 10px 10px lightgray;
+  height: 310px;
+  box-shadow: 10px 10px lightgray;
+  margin-top: 30px;
 
 }
 
 .foto-4 img{
-    height: 430px;
-    box-shadow: 10px 10px lightgray;
+  height: 430px;
+  box-shadow: 10px 10px lightgray;
+  margin-top: -50px;
   
-
 }
 
 .main-text{
-    font-family: 'DM Serif Display', serif;
-    font-family: 'Poppins', sans-serif;
-    color: rgb(19, 19, 19);
-    font-size: 23px;
-    display: flex;
-    justify-content: space-around;
-    
-   
-    
+  font-family: 'Acme', sans-serif;
+  color: rgb(19, 19, 19);
+  font-size: 23px;
+  display: flex;
+  justify-content: space-around;
+  letter-spacing: 2px;
+  margin-top: 50px;
+  margin-left: 20px;
+  
+      
 }
 
 @import url("https://fonts.googleapis.com/css?family=Sarabun");
 *,
 *::after,
-*::before {
+*::before{
   margin: 0;
   padding: 0;
   box-sizing: inherit;
 
 }
 
-html {
+html{
   font-size: 62.5%;
 
 }
 
-body {
+body{
   box-sizing: border-box;
   background-color: rgb(255, 255, 255);
   font-family: "Sarabun", sans-serif;
 
 }
 
-.container {
+.container{
   width: 25rem;
   height: 100%;
-  
   position: relative;
   border-color: rgb(0, 114, 76);
 
 }
 
-h1 {
-  
-
-}
-
-.searchbar {
+.searchbar{
   font-size: 1.8rem;
   width: 20rem;
   height: 5rem;
@@ -157,16 +150,17 @@ h1 {
   padding: 2rem;
   transition: all 0.2s;
   transition-delay: 0.1s;
+  font-family: 'Acme', sans-serif;
 
 }
 
-.searchbar:hover {
+.searchbar:hover{
   width: 27rem;
   height: 6rem;
 
 }
 
-.button {
+.button{
   height: 2rem;
   position: absolute;
   top: 1.5rem;
@@ -176,86 +170,87 @@ h1 {
 
 }
 
-.button:hover {
+.button:hover{
   cursor: pointer;
 
 }
 
-.searchbar:hover + .button {
+.searchbar:hover + .button{
   height: 2.5rem;
   top: 1.8rem;
   right: 0;
 
 }
 
-.searchbar::placeholder {
+.searchbar::placeholder{
   opacity: 0.5;
   
 }
 
 .opleidingen{
-    display: flex;
-    justify-content: center;
-    font-size: 17px;
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  font-family: 'Acme', sans-serif;
     
-
 }
 
 .info, p{
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-family: 'Acme', sans-serif;
     
-    
-
 }
 
 .Beeldatelier{
-    display: flex;
-    justify-content: space-evenly;
-    position: relative;
-    top: 50px;
-    
-
-    
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 50px;
+     
 }
-
-.Jongeren img{
-    height: 300px;
-    width: 400px;
-    box-shadow: 10px 10px lightgray;
-
-}
-
-.Kinderen img{
-    height: 300px;
-    width: 400px;
-    box-shadow: 10px 10px lightgray;
-}
-
-.Volwassen img{
-    height: 300px;
-    width: 400px;
-    box-shadow: 10px 10px lightgray;
-}
-
-
 
 .Beeldatelier{
   position: relative;
   text-align: center;
   color: white;
+
+}
+
+.Jongeren img{
+  height: 300px;
+  width: 400px;
+  box-shadow: 10px 10px lightgray;
+
+}
+
+.Kinderen img{
+  height: 300px;
+  width: 400px;
+  box-shadow: 10px 10px lightgray;
+
+}
+
+.Volwassen img{
+  height: 300px;
+  width: 400px;
+  box-shadow: 10px 10px lightgray;
+
 }
 
 .kaderr{
   position: relative;
   bottom:40px;
   width: 100%;
-  background-color: rgb(219, 135, 56);
+  background-color: rgb(202, 127, 56);
   padding: 2%;
   color: white;
   font-weight: bold;
   font-size: 20px;
+  font-family: 'Acme', sans-serif;
+  letter-spacing: 1px;
+
 }
 
 .kaderrr{
@@ -267,30 +262,36 @@ h1 {
   color: white;
   font-weight: bold;
   font-size: 20px;
+  font-family: 'Acme', sans-serif;
+  letter-spacing: 1px;
 
 }
 
 .kaderrrr{
-    position: relative;
-    bottom:40px;
-    width: 100%;
-    background-color: rgb(47, 209, 160);
-    padding: 2%;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
+  position: relative;
+  bottom:40px;
+  width: 100%;
+  background-color: rgb(47, 209, 160);
+  padding: 2%;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Acme', sans-serif;
+  letter-spacing: 1px;
     
-    }
+}
 
-   main{
-    display: flex;
-    justify-content: center;
-   }
+main{
+  display: flex;
+  justify-content: center;
+}
 
-   .alles{
-     width: 1500px;
+.alles{
+  width: 1500px;
      
-   }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Serif+Display&family=Monoton&family=Paytone+One&family=Poppins:wght@300&display=swap');
 
 
 
