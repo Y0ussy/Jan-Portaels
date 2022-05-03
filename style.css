@@ -2,14 +2,40 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
 
+.searchbar {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar #searchbar-input {
+  border: 0px solid;
+  border-bottom: 2px solid black;
+  width: 600px;
+  font-size: 4.9rem;
+  outline: none;
+  color: #606060;
+  display: none;
+}
+
+.searchbar .fa-times {
+  display: none;
+  font-size: 5rem;
+  cursor: pointer;
+}
+
+.searchbar .fa-search {
+  font-size: 5rem;
+  cursor: pointer;
 }
 
 body {
   margin: 0;
   height: 100vh;
-  font-family: 'Acme', sans-serif;
-
+  font-family: "Acme", sans-serif;
 }
 
 .cursor {
@@ -21,15 +47,14 @@ body {
   position: absolute;
   transition-duration: 200ms;
   transition-timing-function: ease-out;
-  animation: cursorAnim .5s infinite alternate;
+  animation: cursorAnim 0.5s infinite alternate;
   pointer-events: none;
-  z-index: 1; /* zorgt ervoor dat het boven de andere lagen staat */
-
+  z-index: 1;
+  /* zorgt ervoor dat het boven de andere lagen staat */
 }
 
 .logo img {
   height: 100px;
-
 }
 
 nav {
@@ -37,19 +62,16 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 20vh;
-  ;
-
 }
 
 .nav-links {
   display: flex;
   justify-content: space-around;
   width: 34%;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   font-size: 19.5px;
   position: relative;
   right: 10px;
-
 }
 
 .nav-links a:hover {
@@ -59,49 +81,42 @@ nav {
 .nav-links a {
   text-decoration: none;
   color: black;
-
 }
 
 .nav-links li {
   list-style: none;
-
 }
 
 .Voorpagina-Afbeeldingen {
   display: flex;
   justify-content: space-around;
-
 }
 
 .foto-1 img {
   height: 385px;
   box-shadow: 10px 10px lightgray;
   margin-top: 30px;
-
 }
 
 .foto-2 img {
   height: 460px;
   box-shadow: 10px 10px lightgray;
-
 }
 
 .foto-3 img {
   height: 310px;
   box-shadow: 10px 10px lightgray;
   margin-top: 30px;
-
 }
 
 .foto-4 img {
   height: 430px;
   box-shadow: 10px 10px lightgray;
   margin-top: -50px;
-
 }
 
 .main-text {
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   color: rgb(19, 19, 19);
   font-size: 23px;
   display: flex;
@@ -109,8 +124,6 @@ nav {
   letter-spacing: 2px;
   margin-top: 50px;
   margin-left: 20px;
-
-
 }
 
 @import url("https://fonts.googleapis.com/css?family=Sarabun");
@@ -121,19 +134,16 @@ nav {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-
 }
 
 html {
   font-size: 62.5%;
-
 }
 
 body {
   box-sizing: border-box;
   background-color: rgb(255, 255, 255);
   font-family: "Sarabun", sans-serif;
-
 }
 
 .container {
@@ -141,8 +151,6 @@ body {
   height: 100%;
   position: relative;
   border-color: rgb(0, 114, 76);
-  
-
 }
 
 .searchbar {
@@ -154,8 +162,7 @@ body {
   padding: 2rem;
   transition: all 0.2s;
   transition-delay: 0.1s;
-  font-family: 'Acme', sans-serif;
-
+  font-family: "Acme", sans-serif;
 }
 
 .button {
@@ -165,19 +172,17 @@ body {
   right: 7rem;
   transition: all 0.2s;
   transition-delay: 0.1s;
-
 }
 
 .button:hover {
   cursor: pointer;
-
 }
 
 .opleidingen {
   display: flex;
   justify-content: center;
   font-size: 17px;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   margin-top: 70px;
 }
 
@@ -186,9 +191,8 @@ p {
   display: flex;
   justify-content: center;
   font-size: 30px;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   margin-top: 10px;
-
 }
 
 .Beeldatelier {
@@ -197,29 +201,24 @@ p {
   text-align: center;
   color: white;
   margin-top: 50px;
-  
-
 }
 
 .Jongeren img {
   height: 300px;
   width: 400px;
   box-shadow: 10px 10px lightgray;
-
 }
 
 .Kinderen img {
   height: 300px;
   width: 400px;
   box-shadow: 10px 10px lightgray;
-
 }
 
 .Volwassen img {
   height: 300px;
   width: 400px;
   box-shadow: 10px 10px lightgray;
-
 }
 
 .kaderr {
@@ -231,9 +230,8 @@ p {
   color: white;
   font-weight: bold;
   font-size: 20px;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   letter-spacing: 1px;
-
 }
 
 .kaderrr {
@@ -245,9 +243,8 @@ p {
   color: white;
   font-weight: bold;
   font-size: 20px;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   letter-spacing: 1px;
-
 }
 
 .kaderrrr {
@@ -259,9 +256,8 @@ p {
   color: white;
   font-weight: bold;
   font-size: 20px;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   letter-spacing: 1px;
-
 }
 
 main {
@@ -271,7 +267,6 @@ main {
 
 .alles {
   width: 1500px;
-
 }
 
 .info-desktop {
@@ -282,11 +277,9 @@ main {
   display: none;
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Serif+Display&family=Monoton&family=Paytone+One&family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=DM+Serif+Display&family=Monoton&family=Paytone+One&family=Poppins:wght@300&display=swap");
 
 @media only screen and (max-width: 480px) {
-
   .info-desktop {
     display: none;
   }
@@ -299,7 +292,6 @@ main {
   main {
     display: flex;
     justify-content: center;
-
   }
 
   .nav-links {
@@ -310,22 +302,19 @@ main {
     margin-left: -110px;
     height: 75px;
     margin-top: -20px;
-
   }
 
   .container {
     display: none;
-
   }
 
   .foto-2 img {
     height: 260px;
     box-shadow: 10px 10px lightgray;
-
   }
 
   .main-text {
-    font-family: 'Acme', sans-serif;
+    font-family: "Acme", sans-serif;
     color: rgb(19, 19, 19);
     font-size: 9.5px;
     display: flex;
@@ -333,20 +322,16 @@ main {
     letter-spacing: 2px;
     margin-top: 50px;
     margin-left: 20px;
-
   }
 
   .Beeldatelier {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-
   }
 
   .opleidingen {
     display: none;
-
-
   }
 
   .info,
@@ -354,24 +339,19 @@ main {
     display: flex;
     justify-content: center;
     font-size: 18px;
-    font-family: 'Acme', sans-serif;
+    font-family: "Acme", sans-serif;
     margin-top: 30px;
-
   }
 
   .foto-1 img {
     display: none;
-
   }
 
   .foto-3 img {
     display: none;
-
   }
 
   .foto-4 img {
     display: none;
-
   }
-
 }
