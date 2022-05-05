@@ -30,14 +30,13 @@ button {
   position: relative;
 }
 
-.ateliers ul {
+.dropdown ul {
   margin-top: 10px;
   position: absolute;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
-  width: 220px;
   height: 125px;
   background: white;
   left: 0px;
@@ -51,25 +50,14 @@ button {
   font-size: 15px;
 }
 
+.ateliers ul {
+  width: 220px;
+  height: 125px;
+}
+
 .kunst ul {
-  margin-top: 10px;
-  position: absolute;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
   width: 250px;
   height: 85px;
-  background: white;
-  left: 0px;
-  list-style: none;
-  border-radius: 5px;
-  opacity: 0;
-  pointer-events: none;
-  transform: translateY(-10px);
-  transition: all 0.4s ease;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  font-size: 15px;
 }
 
 .ateliers li,
@@ -92,8 +80,7 @@ button {
   text-decoration: none;
 }
 
-.dropdown button,
-.home {
+.dropdown button {
   background: none;
   text-decoration: none;
   border: none;
@@ -107,11 +94,9 @@ button {
   text-decoration: none;
   border: none;
   color: rgb(89, 250, 169);
-  font-size: 19.5px;
-  cursor: pointer;
 }
 
-.dropdown button {
+.home {
   background: none;
   text-decoration: none;
   border: none;
@@ -125,7 +110,6 @@ button {
   text-decoration: none;
   border: none;
   color: rgb(89, 250, 169);
-  font-size: 19.5px;
   cursor: pointer;
 }
 
