@@ -6,3 +6,22 @@
 
 
 
+## 05/05/2022
+contact pagina:
+.contact {
+    margin-top: -15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+voor je contract image pak een vaste breedte, of 100% (op je image)
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.alles {
+    /* width: 1500px; */
+}
