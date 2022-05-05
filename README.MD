@@ -25,3 +25,10 @@ main {
 .alles {
     /* width: 1500px; */
 }
+
+---
+
+maak apart menu voor responsive:
+https://cvoprofiel2021.netlify.app/code-samples/menusample.html
+
+gebruik gerust menu gepost in link op forum van Josué (cadeau Karim)

@@ -4,11 +4,14 @@
   box-sizing: border-box;
 }
 
-.contact{
+.contact {
   margin-top: -15px;
-  width: 100%;
-  
+  width: 1163px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
 }
+
 
 nav {
   display: flex;
