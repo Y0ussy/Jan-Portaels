@@ -8,7 +8,7 @@
   font-family: "Acme", sans-serif;
   font-size: 17px;
   text-align: center;
-  margin-top: 65px;
+  margin-top: 35px;
 }
 
 
@@ -42,16 +42,18 @@ button {
 
 .dropdown {
   height: 10vh;
-  width: 34%;
+  width: 30%;
   margin: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  
 }
 
 .ateliers,
 .kunst {
   position: relative;
+
 }
 
 .dropdown ul {
