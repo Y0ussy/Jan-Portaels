@@ -14,3 +14,4 @@ document.addEventListener("click", () => {
     cursor.classList.remove("expand");
   }, 500);
 });
+
