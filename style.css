@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.maps{
+  margin-top: -10px;
+}
+
 .graad {
   font-family: "Acme", sans-serif;
   font-size: 17px;
@@ -39,7 +43,7 @@ button {
 
 .dropdown {
   height: 10vh;
-  width: 30%;
+  width: 32.5%;
   margin: auto;
   display: flex;
   justify-content: space-around;
@@ -106,7 +110,7 @@ button {
   text-decoration: none;
   border: none;
   color: rgb(0, 0, 0);
-  font-size: 18px;
+  font-size: 20px;
   cursor: pointer;
 }
 
@@ -122,7 +126,7 @@ button {
   text-decoration: none;
   border: none;
   color: rgb(0, 0, 0);
-  font-size: 18px;
+  font-size: 20px;
   cursor: pointer;
 }
 
@@ -405,12 +409,13 @@ main {
 footer {
   background-color: #292929;
   padding: 3em 4em 2em;
+  margin-top: 100px;
 }
 
 footer .logo {
   color: #fff;
   font-size: 28px;
-  font-family: roboto;
+  font-family: "Acme", sans-serif;
 }
 
 footer .row {
@@ -483,6 +488,10 @@ footer #subscribe {
   margin: 20px 0px 30px;
 }
 
+.footer-cat-links{
+margin-top: 15px;
+}
+
 input#subscriber-email {
   outline: none;
   padding: 8px;
@@ -522,8 +531,8 @@ input#subscriber-email::placeholder {
   border: 1px solid #cecece;
   border-radius: 0px 4px 4px 0;
   padding: 8px 5px;
-  background-color: #e2e2e2;
-  color: #212121;
+  background-color: #888888;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -563,7 +572,7 @@ input#subscriber-email::placeholder {
   text-align: center;
 }
 
-.sov img{
+.sov img {
   height: 200px;
 }
 
@@ -584,6 +593,7 @@ input#subscriber-email::placeholder {
 #owner a {
   color: #fff;
 }
+
 
 /* iPads to Smartphone for Common Elements ----------- */
 @media only screen and (max-width: 1024px) {
