@@ -8,11 +8,41 @@
   margin-top: -10px;
 }
 
+.map-contact{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 18px;
+  font-family: "Acme", sans-serif;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+
+.bereikbaarheid{
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  font-family: "Sarabun", sans-serif;
+  margin-top: 45px;
+  
+
+}
+
+.opening{
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  font-family: "Sarabun", sans-serif;
+  margin-top: 45px;
+
+}
+
 .graad {
   font-family: "Acme", sans-serif;
   font-size: 17px;
   text-align: center;
   margin-top: 35px;
+
 }
 
 .video {
