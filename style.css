@@ -18,6 +18,13 @@
   letter-spacing: 2px;
 }
 
+.adresso{
+  font-size: 9.4px;
+  font-family: "Sarabun", sans-serif;
+  text-align: center;
+  margin-top: 45px;
+}
+
 .bereikbaarheid{
   display: flex;
   justify-content: center;
