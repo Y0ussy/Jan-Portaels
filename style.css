@@ -1,14 +1,27 @@
+@media (min-width: 390px) {
+  body {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 844px) {
+  body {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.maps{
+.contact-map {
   margin-top: -10px;
+  width: 100%;
 }
 
-.map-contact{
+.contact-map-name {
   display: flex;
   justify-content: center;
   margin-top: 50px;
@@ -18,30 +31,27 @@
   letter-spacing: 2px;
 }
 
-.adresso{
+.contact-openingsuren {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  font-family: "Sarabun", sans-serif;
+  margin-top: 45px;
+}
+
+#tableOne {
+  font-size: 15px;
+}
+
+.table-school .table-sectariaat {
+  font-weight: bold;
+}
+
+.contact-adres {
   font-size: 9.4px;
   font-family: "Sarabun", sans-serif;
   text-align: center;
   margin-top: 45px;
-}
-
-.bereikbaarheid{
-  display: flex;
-  justify-content: center;
-  font-size: 13px;
-  font-family: "Sarabun", sans-serif;
-  margin-top: 45px;
-  
-
-}
-
-.opening{
-  display: flex;
-  justify-content: center;
-  font-size: 13px;
-  font-family: "Sarabun", sans-serif;
-  margin-top: 45px;
-
 }
 
 .graad {
@@ -49,7 +59,6 @@
   font-size: 17px;
   text-align: center;
   margin-top: 35px;
-
 }
 
 .video {
@@ -217,8 +226,8 @@ body {
 }
 
 .cursor {
-  width: 35px;
-  height: 35px;
+  width: 15px;
+  height: 15px;
   background-color: rgb(89, 250, 169);
   border-radius: 50%;
   opacity: 0.6;
@@ -231,10 +240,12 @@ body {
   /* zorgt ervoor dat het boven de andere lagen staat */
 }
 
-.logo img {
-  height: 90px;
-  margin-left: 70px;
+
+  .logo img {
+    height: 90px;
+    margin-left: 70px;
 }
+
 
 .Voorpagina-Afbeeldingen {
   display: flex;
@@ -360,57 +371,58 @@ p {
 .Jongeren img {
   height: 300px;
   width: 400px;
-  box-shadow: 10px 10px lightgray;
 }
 
 .Kinderen img {
   height: 300px;
   width: 400px;
-  box-shadow: 10px 10px lightgray;
 }
 
-.Volwassen img {
-  height: 300px;
+.Volwassen {
+  background-image: url(Volwassen.png);
   width: 400px;
-  box-shadow: 10px 10px lightgray;
+  height: 300px;
+  background-size: 400px;
+  background-position-y: -42px;
+  background-repeat: no-repeat;
 }
 
 .kaderr {
   position: relative;
-  bottom: 40px;
+  bottom: 43px;
   width: 100%;
   background-color: rgb(202, 127, 56);
   padding: 2%;
   color: white;
   font-weight: bold;
   font-size: 20px;
-  font-family: "Acme", sans-serif;
+  font-family: "Lato";
   letter-spacing: 1px;
 }
 
 .kaderrr {
   position: relative;
-  bottom: 40px;
+  bottom: 43px;
   width: 100%;
   background-color: rgb(39, 79, 199);
   padding: 2%;
   color: white;
   font-weight: bold;
   font-size: 20px;
-  font-family: "Acme", sans-serif;
+  font-family: "Lato";
   letter-spacing: 1px;
 }
 
 .kaderrrr {
   position: relative;
-  bottom: 40px;
+  bottom: -261px;
   width: 100%;
   background-color: rgb(47, 209, 160);
   padding: 2%;
   color: white;
   font-weight: bold;
   font-size: 20px;
-  font-family: "Acme", sans-serif;
+  font-family: "Lato";
   letter-spacing: 1px;
 }
 
@@ -525,8 +537,8 @@ footer #subscribe {
   margin: 20px 0px 30px;
 }
 
-.footer-cat-links{
-margin-top: 15px;
+.footer-cat-links {
+  margin-top: 15px;
 }
 
 input#subscriber-email {
@@ -568,7 +580,7 @@ input#subscriber-email::placeholder {
   border: 1px solid #cecece;
   border-radius: 0px 4px 4px 0;
   padding: 8px 5px;
-  background-color: #888888;
+  background-color: #007d8e;
   color: #ffffff;
   cursor: pointer;
 }
@@ -630,7 +642,6 @@ input#subscriber-email::placeholder {
 #owner a {
   color: #fff;
 }
-
 
 /* iPads to Smartphone for Common Elements ----------- */
 @media only screen and (max-width: 1024px) {
