@@ -240,12 +240,10 @@ body {
   /* zorgt ervoor dat het boven de andere lagen staat */
 }
 
-
-  .logo img {
-    height: 90px;
-    margin-left: 70px;
+.logo img {
+  height: 90px;
+  margin-left: 70px;
 }
-
 
 .Voorpagina-Afbeeldingen {
   display: flex;
@@ -818,6 +816,39 @@ input#subscriber-email::placeholder {
     display: none;
   }
 
+  .Volwassen {
+    background-image: url(Volwassen.png);
+    width: 400px;
+    height: 300px;
+    background-size: 400px;
+    background-position-y: -42px;
+    background-repeat: no-repeat;
+    margin-left: 200px;
+  }
+
+  .dropdown {
+    height: 10vh;
+    width: 32.5%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+  }
+
+  .logo img {
+    margin-left: -148px;
+    height: 75px;
+  }
+
+  .sov {
+    margin-top: 135px;
+  }
+
+  .social-links {
+    margin-top: 60px;
+  }
+
   .info-mobil {
     display: block;
     margin-top: 60px;
@@ -833,9 +864,9 @@ input#subscriber-email::placeholder {
   }
 
   .logo img {
-    margin-left: -200px;
+    margin-left: -148px;
     height: 75px;
-    margin-top: -90px;
+    margin-top: -20px;
   }
 
   .container {
@@ -844,18 +875,19 @@ input#subscriber-email::placeholder {
 
   .foto-2 img {
     height: 350px;
-    box-shadow: 10px 10px lightgray;
+    box-shadow: 10px 10px lihtgray;
+    margin-right: 10px;
   }
 
   .main-text {
     font-family: "Acme", sans-serif;
     color: rgb(19, 19, 19);
-    font-size: 9.5px;
+    font-size: 11px;
     display: flex;
     justify-content: center;
     letter-spacing: 2px;
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .Beeldatelier {
@@ -872,7 +904,7 @@ input#subscriber-email::placeholder {
   p {
     display: flex;
     justify-content: center;
-    font-size: 18px;
+    font-size: 21px;
     font-family: "Acme", sans-serif;
     margin-top: 30px;
   }
