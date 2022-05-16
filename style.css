@@ -240,10 +240,12 @@ body {
   /* zorgt ervoor dat het boven de andere lagen staat */
 }
 
-.logo img {
-  height: 90px;
-  margin-left: 70px;
+
+  .logo img {
+    height: 90px;
+    margin-left: 70px;
 }
+
 
 .Voorpagina-Afbeeldingen {
   display: flex;
@@ -836,17 +838,20 @@ input#subscriber-email::placeholder {
     display: none;
   }
 
-  .logo img {
-    margin-left: -148px;
-    height: 75px;
+ 
+
+.logo img {
+  margin-left: -148px;
+  height: 75px;
+}
+
+  
+  .sov{
+    margin-top:135px;
   }
 
-  .sov {
-    margin-top: 135px;
-  }
-
-  .social-links {
-    margin-top: 60px;
+  .social-links{
+    margin-top: 60px
   }
 
   .info-mobil {
@@ -867,7 +872,7 @@ input#subscriber-email::placeholder {
     margin-left: -148px;
     height: 75px;
     margin-top: -20px;
-  }
+}
 
   .container {
     display: none;
@@ -888,7 +893,7 @@ input#subscriber-email::placeholder {
     letter-spacing: 2px;
     margin-top: 50px;
     margin-left: 10px;
-  }
+}
 
   .Beeldatelier {
     display: flex;
