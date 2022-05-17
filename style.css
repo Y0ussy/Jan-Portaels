@@ -16,6 +16,77 @@
   box-sizing: border-box;
 }
 
+.contact-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+  text-align: center;
+}
+
+.form-vraag{
+  text-align: center;
+  margin-top: 75px;
+  font-size: 12.9px;
+}
+
+.forum { max-width:420px; margin:50px auto; 
+margin-top: 40px;}
+
+.feedback-input {
+  color:rgb(0, 0, 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #292929;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #292929 }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submitt"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: #292929;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:20px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+  text-align: center;
+}
+
+[type="submitt"]:hover { background:#4b4b4b; }
+
+.contact-table-one {
+  margin-right: -800px;
+}
+
+.alles-table {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
 .contact-map {
   margin-top: -10px;
   width: 100%;
@@ -226,8 +297,8 @@ body {
 }
 
 .cursor {
-  width: 15px;
-  height: 15px;
+  width: 25px;
+  height: 25px;
   background-color: rgb(89, 250, 169);
   border-radius: 50%;
   opacity: 0.6;
@@ -240,12 +311,10 @@ body {
   /* zorgt ervoor dat het boven de andere lagen staat */
 }
 
-
-  .logo img {
-    height: 90px;
-    margin-left: 70px;
+.logo img {
+  height: 90px;
+  margin-left: 70px;
 }
-
 
 .Voorpagina-Afbeeldingen {
   display: flex;
@@ -838,20 +907,17 @@ input#subscriber-email::placeholder {
     display: none;
   }
 
- 
-
-.logo img {
-  margin-left: -148px;
-  height: 75px;
-}
-
-  
-  .sov{
-    margin-top:135px;
+  .logo img {
+    margin-left: -148px;
+    height: 75px;
   }
 
-  .social-links{
-    margin-top: 60px
+  .sov {
+    margin-top: 135px;
+  }
+
+  .social-links {
+    margin-top: 60px;
   }
 
   .info-mobil {
@@ -872,7 +938,7 @@ input#subscriber-email::placeholder {
     margin-left: -148px;
     height: 75px;
     margin-top: -20px;
-}
+  }
 
   .container {
     display: none;
@@ -893,7 +959,7 @@ input#subscriber-email::placeholder {
     letter-spacing: 2px;
     margin-top: 50px;
     margin-left: 10px;
-}
+  }
 
   .Beeldatelier {
     display: flex;
