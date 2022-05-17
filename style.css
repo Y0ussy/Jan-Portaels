@@ -16,6 +16,40 @@
   box-sizing: border-box;
 }
 
+.inschrijven-einde{
+  margin-top: 15px;
+  margin-left: px;
+  color: #007d8e;
+
+}
+
+.inschrijven-para{
+  font-size: 10px;
+  margin-top: 20px;
+  margin-left: 98px;
+  
+}
+
+.inschrijven-hoe{
+  font-size: 15px;
+  margin-top: 28px;
+  margin-left: 98px;
+  font-family: "Acme", sans-serif;
+}
+
+.inschrijven-tekst{
+  margin-top: 30px;
+  margin-left: 98px;
+  color: #007d8e;
+}
+
+.inschrijven-naam{
+  font-size: 15px;
+  font-family: "Acme", sans-serif;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
 .contact-info {
   display: flex;
   justify-content: center;
