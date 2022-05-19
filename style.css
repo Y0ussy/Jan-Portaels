@@ -503,52 +503,46 @@ body {
   justify-content: space-evenly;
   text-align: center;
   color: white;
-  margin-top: 50px;
+  row-gap: 10px;
+  align-items: center;
 }
 
-.Jongeren img {
-  height: 300px;
+.Beeldatelier figure {
   width: 400px;
+  height: 300px;
 }
 
-.Kinderen img {
-  height: 300px;
-  width: 400px;
+.Jongeren {
+  background-image: url(Jong.png);
+  background-size: 413px;
+  background-position-y: -24px;
+  background-repeat: no-repeat;
 }
 
-.Volwassen {
-  background-image: url(Volwassen.png);
-  width: 400px;
-  height: 300px;
+.Kinderen {
+  background-image: url(Kinderen.png);
   background-size: 400px;
   background-position-y: -42px;
   background-repeat: no-repeat;
 }
 
-.kaderr {
-  position: relative;
-  bottom: 43px;
-  width: 100%;
-  background-color: rgb(202, 127, 56);
-  padding: 2%;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  font-family: "Lato";
-  letter-spacing: 1px;
+.Volwassen {
+  background-image: url(Volwassen.png);
+  background-size: 400px;
+  background-position-y: -42px;
+  background-repeat: no-repeat;
 }
 
-.kaderrr {
-  position: relative;
-  bottom: 43px;
-  width: 100%;
+.Jongeren .kaderrrr {
+  background-color: rgb(202, 127, 56);
+}
+
+.Kinderen .kaderrrr {
   background-color: rgb(39, 79, 199);
-  padding: 2%;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  font-family: "Lato";
-  letter-spacing: 1px;
+}
+
+.Volwassen .kaderrrr {
+  background-color: rgb(47, 209, 160);
 }
 
 .kaderrrr {
@@ -953,13 +947,21 @@ input#subscriber-email::placeholder {
   }
 }
 
+.video iframe {
+  width: 795px;
+  height: 447px;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=DM+Serif+Display&family=Monoton&family=Paytone+One&family=Poppins:wght@300&display=swap");
 
 @media only screen and (max-width: 480px) {
   .info-desktop {
     display: flex;
   }
-
+  .video iframe {
+    width: 480px;
+    height: 247px;
+  }
   .Volwassen {
     background-image: url(Volwassen.png);
     width: 400px;
@@ -967,7 +969,6 @@ input#subscriber-email::placeholder {
     background-size: 400px;
     background-position-y: -42px;
     background-repeat: no-repeat;
-    margin-left: 200px;
   }
 
   .dropdown {

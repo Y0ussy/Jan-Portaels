@@ -32,3 +32,9 @@ maak apart menu voor responsive:
 https://cvoprofiel2021.netlify.app/code-samples/menusample.html
 
 gebruik gerust menu gepost in link op forum van Josué (cadeau Karim)
+
+## 19/05/2022
+- W3C valid
+- witruimte 
+- links fixen
+- gebruik animatie op site
