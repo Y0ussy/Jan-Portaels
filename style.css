@@ -16,34 +16,41 @@
   box-sizing: border-box;
 }
 
+.inschrijven-image img {
+  height: 245px;
+  float: right;
+  margin-top: -230px;
+  margin-right: 80px;
+  box-shadow: 7px 7px rgb(206, 206, 206);
+}
 
 .inschrijven-secretariaat {
-  font-size: 20px;
+  font-size: 18.5px;
   font-family: "Sarabun", sans-serif;
   margin-left: 98px;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 .inschrijven-opgelet {
-  font-size: 20px;
+  font-size: 18.5px;
   font-family: "Sarabun", sans-serif;
   margin-left: 98px;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 .inschrijven-account {
-  font-size: 20px;
+  font-size: 18.5px;
   font-family: "Sarabun", sans-serif;
   margin-left: 98px;
-  margin-top: 20px; 
+  margin-top: 20px;
   font-weight: bold;
 }
 
 .inschrijven-a {
-  font-size: 20px;
+  font-size: 18.5px;
   font-family: "Sarabun", sans-serif;
   margin-left: 98px;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 .inschrijven-naam {
@@ -1040,7 +1047,6 @@ input#subscriber-email::placeholder {
   .info p {
     font-size: 21px;
     margin-top: 30px;
-    
   }
 
   .foto-1 img {
