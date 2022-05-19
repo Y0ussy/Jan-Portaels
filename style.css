@@ -16,38 +16,42 @@
   box-sizing: border-box;
 }
 
-.inschrijven-einde{
-  margin-top: 15px;
-  margin-left: px;
-  color: #007d8e;
 
-}
-
-.inschrijven-para{
-  font-size: 10px;
-  margin-top: 20px;
+.inschrijven-secretariaat {
+  font-size: 20px;
+  font-family: "Sarabun", sans-serif;
   margin-left: 98px;
-  
+  margin-top: 20px; 
 }
 
-.inschrijven-hoe{
-  font-size: 15px;
-  margin-top: 28px;
+.inschrijven-opgelet {
+  font-size: 20px;
+  font-family: "Sarabun", sans-serif;
   margin-left: 98px;
-  font-family: "Acme", sans-serif;
+  margin-top: 20px; 
 }
 
-.inschrijven-tekst{
-  margin-top: 30px;
+.inschrijven-account {
+  font-size: 20px;
+  font-family: "Sarabun", sans-serif;
   margin-left: 98px;
-  color: #007d8e;
+  margin-top: 20px; 
+  font-weight: bold;
 }
 
-.inschrijven-naam{
+.inschrijven-a {
+  font-size: 20px;
+  font-family: "Sarabun", sans-serif;
+  margin-left: 98px;
+  margin-top: 20px; 
+}
+
+.inschrijven-naam {
   font-size: 15px;
   font-family: "Acme", sans-serif;
   margin-left: 100px;
   margin-top: 50px;
+  text-decoration: underline;
 }
 
 .contact-info {
@@ -55,91 +59,98 @@
   justify-content: center;
   margin-top: 90px;
   text-align: center;
- 
 }
 
-.form-vraag{
+.form-vraag {
   text-align: center;
   margin-top: 75px;
   font-size: 12.9px;
 }
 
-.form-contact { 
-  max-width:420px; 
-  margin:50px auto; 
-  
+.form-contact {
+  max-width: 420px;
+  margin: 50px auto;
 }
 
 .feedback-input {
-  color:black;
+  color: black;
   font-family: Helvetica, Arial, sans-serif;
-  font-weight:500;
+  font-weight: 500;
   font-size: 18px;
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid #292929;
+  border: 2px solid #292929;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
-  width:100%;
+  width: 100%;
   box-sizing: border-box;
-  outline:0;
+  outline: 0;
 }
 
-.feedback-input:focus { border:2px solid #292929; }
+.feedback-input:focus {
+  border: 2px solid #292929;
+}
+
+.graad-info {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-family: "Acme", sans-serif;
+  margin-top: 10px;
+}
 
 textarea {
   height: 150px;
   line-height: 150%;
-  resize:vertical;
+  resize: vertical;
 }
 
 .form-contact [type="submit"] {
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
   width: 100%;
-  background:#292929;
-  border-radius:5px;
-  border:0;
-  cursor:pointer;
-  color:white;
-  font-size:24px;
-  padding-top:10px;
-  padding-bottom:10px;
+  background: #292929;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
+  margin-top: -4px;
+  font-weight: 700;
 }
-.form-contact [type="submit"]:hover { background:grey; }
+.form-contact [type="submit"]:hover {
+  background: grey;
+}
 
 table {
   width: 250px;
   font-size: 20px;
-  
 }
 
-.all-table{
+.all-table {
   display: flex;
   justify-content: space-evenly;
   margin-top: 40px;
-  
-
 }
 
-.table-two{
+.table-two {
   margin-left: -400px;
 }
 
 th {
   text-align: left;
-
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 6.5px;
-
 }
 
 th {
@@ -169,8 +180,6 @@ th {
   font-family: "Sarabun", sans-serif;
   margin-top: 45px;
 }
-
-
 
 .contact-adres {
   font-size: 9.4px;
@@ -474,8 +483,7 @@ body {
   margin-top: 70px;
 }
 
-.info,
-p {
+.info p {
   display: flex;
   justify-content: center;
   font-size: 30px;
@@ -559,7 +567,11 @@ main {
 }
 
 .info-desktop {
-  display: block;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 20px;
+  font-family: "Acme", sans-serif;
 }
 
 .info-mobil {
@@ -938,7 +950,7 @@ input#subscriber-email::placeholder {
 
 @media only screen and (max-width: 480px) {
   .info-desktop {
-    display: none;
+    display: flex;
   }
 
   .Volwassen {
@@ -1025,13 +1037,10 @@ input#subscriber-email::placeholder {
     display: none;
   }
 
-  .info,
-  p {
-    display: flex;
-    justify-content: center;
+  .info p {
     font-size: 21px;
-    font-family: "Acme", sans-serif;
     margin-top: 30px;
+    
   }
 
   .foto-1 img {
