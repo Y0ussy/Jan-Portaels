@@ -16,6 +16,22 @@
   box-sizing: border-box;
 }
 
+.inschrijving-tarief{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 98px;
+
+}
+
+.tarieven h1{
+  font-size: 29px;
+  font-family: "Acme", sans-serif;
+  text-decoration: underline;
+  margin-top: 60px;
+  margin-left: 98px;
+
+}
+
 .inschrijven-image img {
   height: 231px;
   float: right;
@@ -498,6 +514,10 @@ body {
   margin-top: 10px;
 }
 
+.Beeldatelier a {
+  text-decoration: none;
+}
+
 .Beeldatelier {
   display: flex;
   justify-content: space-evenly;
@@ -505,6 +525,7 @@ body {
   color: white;
   row-gap: 10px;
   align-items: center;
+  margin-top: 20px;
 }
 
 .Beeldatelier figure {
