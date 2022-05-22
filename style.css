@@ -1,14 +1,247 @@
+@media (min-width: 390px) {
+  body {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 844px) {
+  body {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+.water {
+  max-width: 600px;
+  height: 500px;
+  position: relative;
+  background-size: cover;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  border-radius: 30px;
+  margin: 0 auto;
+  }
+  
+  .fish {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 300px;
+  -webkit-transform: translate(-50%, -50%) translateZ(50px);
+  -moz-transform: translate(-50%, -50%) translateZ(50px);
+  -ms-transform: translate(-50%, -50%) translateZ(50px);
+  -o-transform: translate(-50%, -50%) translateZ(50px);
+  transform: translate(-50%, -50%) translateZ(50px);
+  }
+  
+
+.inschrijving-tarief{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 98px;
+
+}
+
+.tarieven h1{
+  font-size: 29px;
+  font-family: "Acme", sans-serif;
+  text-decoration: underline;
+  margin-top: 60px;
+  margin-left: 98px;
+
+}
+
+.inschrijven-image img {
+  height: 231px;
+  float: right;
+  margin-top: -222px;
+  margin-right: 95px;
+  box-shadow: 7px 7px rgb(206 206 206);
+}
+
+.inschrijven-secretariaat {
+  font-size: 18.5px;
+  font-family: "Sarabun", sans-serif;
+  margin-left: 98px;
+  margin-top: 20px;
+}
+
+.inschrijven-opgelet {
+  font-size: 18.5px;
+  font-family: "Sarabun", sans-serif;
+  margin-left: 98px;
+  margin-top: 20px;
+}
+
+.inschrijven-account {
+  font-size: 18.5px;
+  font-family: "Sarabun", sans-serif;
+  margin-left: 98px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.inschrijven-a {
+  font-size: 18.5px;
+  font-family: "Sarabun", sans-serif;
+  margin-left: 98px;
+  margin-top: 20px;
+}
+
+.inschrijven-naam {
+  font-size: 15px;
+  font-family: "Acme", sans-serif;
+  margin-left: 100px;
+  margin-top: 50px;
+  text-decoration: underline;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+  text-align: center;
+}
+
+.form-vraag {
+  text-align: center;
+  margin-top: 75px;
+  font-size: 12.9px;
+}
+
+.form-contact {
+  max-width: 420px;
+  margin: 50px auto;
+}
+
+.feedback-input {
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #292929;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid #292929;
+}
+
+.graad-info {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-family: "Acme", sans-serif;
+  margin-top: 19px;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+.form-contact [type="submit"] {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: #292929;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+.form-contact [type="submit"]:hover {
+  background: grey;
+}
+
+table {
+  width: 250px;
+  font-size: 20px;
+}
+
+.all-table {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.table-two {
+  margin-left: -400px;
+}
+
+th {
+  text-align: left;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 6.5px;
+}
+
+th {
+  background-color: #292929;
+  color: white;
+}
+
+.contact-map {
+  margin-top: -10px;
+  width: 100%;
+}
+
+.contact-map-name {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 18px;
+  font-family: "Acme", sans-serif;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+
+.contact-openingsuren {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-family: "Sarabun", sans-serif;
+  margin-top: 45px;
+}
+
+.contact-adres {
+  font-size: 9.4px;
+  font-family: "Sarabun", sans-serif;
+  text-align: center;
+  margin-top: 45px;
+}
+
 .graad {
   font-family: "Acme", sans-serif;
   font-size: 17px;
   text-align: center;
-  margin-top: 35px;
+  margin-top: 60px;
 }
 
 .video {
@@ -35,23 +268,24 @@ nav {
 a,
 button {
   font-family: "Acme", sans-serif;
-
 }
 
 .dropdown {
   height: 10vh;
-  width: 30%;
+  width: 32.5%;
   margin: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 87ba8b54429afff98784ec4f3dfa4d75ddfc70da
 }
 
 .ateliers,
 .kunst {
   position: relative;
-
 }
 
 .dropdown ul {
@@ -77,7 +311,6 @@ button {
 .ateliers ul {
   width: 220px;
   height: 125px;
-
 }
 
 .kunst ul {
@@ -110,7 +343,7 @@ button {
   text-decoration: none;
   border: none;
   color: rgb(0, 0, 0);
-  font-size: 18px;
+  font-size: 20px;
   cursor: pointer;
 }
 
@@ -126,7 +359,7 @@ button {
   text-decoration: none;
   border: none;
   color: rgb(0, 0, 0);
-  font-size: 18px;
+  font-size: 20px;
   cursor: pointer;
 }
 
@@ -138,8 +371,8 @@ button {
   cursor: pointer;
 }
 
-.ateliers button:focus+ul,
-.kunst button:focus+ul {
+.ateliers button:focus + ul,
+.kunst button:focus + ul {
   opacity: 1;
   pointer-events: all;
   transform: translateY(0px);
@@ -180,8 +413,8 @@ body {
 }
 
 .cursor {
-  width: 35px;
-  height: 35px;
+  width: 25px;
+  height: 25px;
   background-color: rgb(89, 250, 169);
   border-radius: 50%;
   opacity: 0.6;
@@ -210,6 +443,7 @@ body {
   margin-top: 30px;
   margin-left: 100px;
 }
+
 
 .foto-2 img {
   height: 380px;
@@ -303,8 +537,7 @@ body {
   margin-top: 70px;
 }
 
-.info,
-p {
+.info p {
   display: flex;
   justify-content: center;
   font-size: 30px;
@@ -312,68 +545,68 @@ p {
   margin-top: 10px;
 }
 
+.Beeldatelier a {
+  text-decoration: none;
+}
+
 .Beeldatelier {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
   color: white;
-  margin-top: 50px;
+  row-gap: 10px;
+  align-items: center;
+  margin-top: 31px;
 }
 
-.Jongeren img {
-  height: 300px;
+.Beeldatelier figure {
   width: 400px;
-  box-shadow: 10px 10px lightgray;
-}
-
-.Kinderen img {
   height: 300px;
-  width: 400px;
-  box-shadow: 10px 10px lightgray;
 }
 
-.Volwassen img {
-  height: 300px;
-  width: 400px;
-  box-shadow: 10px 10px lightgray;
+.Jongeren {
+  background-image: url(Jong.png);
+  background-size: 413px;
+  background-position-y: -24px;
+  background-repeat: no-repeat;
 }
 
-.kaderr {
-  position: relative;
-  bottom: 40px;
-  width: 100%;
+.Kinderen {
+  background-image: url(Kinderen.png);
+  background-size: 400px;
+  background-position-y: -42px;
+  background-repeat: no-repeat;
+}
+
+.Volwassen {
+  background-image: url(Volwassen.png);
+  background-size: 400px;
+  background-position-y: -42px;
+  background-repeat: no-repeat;
+}
+
+.Jongeren .kaderrrr {
   background-color: rgb(202, 127, 56);
-  padding: 2%;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  font-family: "Acme", sans-serif;
-  letter-spacing: 1px;
 }
 
-.kaderrr {
-  position: relative;
-  bottom: 40px;
-  width: 100%;
+.Kinderen .kaderrrr {
   background-color: rgb(39, 79, 199);
-  padding: 2%;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  font-family: "Acme", sans-serif;
-  letter-spacing: 1px;
+}
+
+.Volwassen .kaderrrr {
+  background-color: rgb(47, 209, 160);
 }
 
 .kaderrrr {
   position: relative;
-  bottom: 40px;
+  bottom: -261px;
   width: 100%;
   background-color: rgb(47, 209, 160);
   padding: 2%;
   color: white;
   font-weight: bold;
   font-size: 20px;
-  font-family: "Acme", sans-serif;
+  font-family: "Lato";
   letter-spacing: 1px;
 }
 
@@ -387,18 +620,430 @@ main {
 }
 
 .info-desktop {
-  display: block;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 15px;
+  font-family: "Acme", sans-serif;
 }
 
 .info-mobil {
   display: none;
 }
 
+.dummy-text {
+  color: #3c3b3b;
+  font-family: lato;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.col-6 {
+  width: 50%;
+  display: inline-table;
+}
+
+footer {
+  background-color: #292929;
+  padding: 3em 4em 2em;
+  margin-top: 100px;
+}
+
+footer .logo {
+  color: #fff;
+  font-size: 28px;
+  font-family: "Acme", sans-serif;
+}
+
+footer .row {
+  margin: 2em 0;
+  font-family: lato;
+  color: #fff;
+  position: relative;
+  border-bottom: 1px solid #cecece;
+}
+
+.footer-toggle {
+  display: none;
+}
+
+.link-cat {
+  cursor: pointer;
+}
+
+footer ul {
+  padding: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+footer ul li {
+  list-style-type: none;
+  padding: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  line-height: 2;
+}
+
+footer .footer-cat,
+#newsletter span {
+  font-size: 20px;
+}
+
+.footer-cat-links a {
+  color: #cecece;
+  text-decoration: none;
+  position: relative;
+  font-size: 15px;
+}
+
+.footer-cat-links.active > li a {
+  pointer-events: auto;
+}
+
+.footer-cat-links a:after {
+  top: 21px;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  width: 0;
+  background: #fff;
+
+  -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.footer-cat-links a:hover:after,
+.footer-cat-links a:focus:after {
+  width: 100%;
+  left: 0;
+}
+
+footer #subscribe {
+  margin: 20px 0px 30px;
+}
+
+.footer-cat-links {
+  margin-top: 15px;
+}
+
+input#subscriber-email {
+  outline: none;
+  padding: 8px;
+  background: #212121;
+  border: 1px solid #cecece;
+  color: #cecece;
+  border-radius: 4px 0px 0px 4px;
+}
+
+input#subscriber-email::-webkit-input-placeholder {
+  color: rgb(202, 196, 196);
+}
+
+input#subscriber-email:-ms-input-placeholder {
+  color: #cecece;
+}
+
+input#subscriber-email::-ms-input-placeholder {
+  color: #cecece;
+}
+
+input#subscriber-email::placeholder {
+  color: #cecece;
+}
+
+.col-3 {
+  display: inline-table;
+  width: 25%;
+}
+
+.col-3#newsletter {
+  width: 24%;
+}
+
+.col-3#newsletter #btn-scribe {
+  margin-left: -4px;
+  border: 1px solid #cecece;
+  border-radius: 0px 4px 4px 0;
+  padding: 8px 5px;
+  background-color: #007d8e;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.social-2 {
+  display: none;
+}
+
+.social-links {
+  bottom: 44px;
+  position: absolute;
+  left: 0;
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 6px;
+
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.social-links a:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-links a:hover,
+.social-links a:focus {
+  background-color: rgb(39, 79, 199);
+}
+
+.social-links a i {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+.sov img {
+  height: 200px;
+}
+
+#copyright {
+  text-align: center;
+  color: #fff;
+  font-family: lato;
+  font-size: 12.5px;
+}
+
+#owner {
+  text-align: center;
+  padding: 20px 0 0px;
+  color: #fff;
+  font-family: lato;
+}
+
+#owner a {
+  color: #fff;
+}
+
+/* iPads to Smartphone for Common Elements ----------- */
+@media only screen and (max-width: 1024px) {
+  .col-3 {
+    display: block;
+    width: 100%;
+    padding-bottom: 1em;
+    position: relative;
+  }
+
+  .col-3#newsletter {
+    width: 100%;
+    position: relative;
+    padding-bottom: 0;
+    padding-top: 1em;
+  }
+
+  footer .footer-cat {
+    margin-left: 25px;
+  }
+
+  .footer-toggle,
+  .footer-toggle::after {
+    background: #fff;
+    height: 2px;
+    width: 15px;
+    position: absolute;
+    display: block;
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+  }
+
+  .footer-toggle {
+    top: 11px;
+    cursor: pointer;
+  }
+
+  .footer-toggle::after {
+    content: "";
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+  .btnActive .footer-toggle::after {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  .footer-cat-links {
+    margin: 0 0em 0px 1.6em;
+  }
+
+  .footer-cat-links a {
+    pointer-events: none;
+  }
+
+  .footer-cat-links li {
+    line-height: 0;
+    opacity: 0;
+  }
+
+  .footer-cat-links.active > li {
+    line-height: 2;
+    opacity: 1;
+  }
+
+  .social-1 {
+    display: none !important;
+  }
+
+  .social-2 {
+    display: block;
+    position: absolute;
+    top: 7.5em;
+    bottom: 0px;
+    height: 20px;
+    padding-bottom: 1.5em;
+    width: 100%;
+  }
+
+  #address {
+    margin-top: 6em;
+  }
+
+  #newsletter #address li i {
+    width: auto;
+  }
+
+  #newsletter #address li div {
+    font-size: 14px;
+    width: auto;
+    text-align: -webkit-auto;
+    float: none;
+    line-height: 2;
+    display: inline-block;
+    padding: 10px 0 15px;
+  }
+
+  #newsletter #address li div:last-child {
+    padding-bottom: 0;
+  }
+
+  #newsletter #address li:not(:first-child) {
+    padding: 20px 0 0;
+  }
+}
+
+/* iPads (portrait)----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  footer {
+    padding-right: 3em;
+    padding-left: 3em;
+  }
+
+  .col-3 {
+    display: block;
+    width: 100%;
+    padding-bottom: 1em;
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  section {
+    padding-bottom: 3em;
+  }
+
+  .sec-heading {
+    padding: 1em 0;
+  }
+
+  .col-3 {
+    display: block;
+    width: 100%;
+    padding-bottom: 1em;
+  }
+}
+
+/* Mini Tablet ----------- */
+@media only screen and (max-width: 600px) {
+  .col-3 {
+    display: block;
+    width: 100%;
+    padding-bottom: 1em;
+  }
+
+  .col-6 {
+    width: 100%;
+    display: block;
+  }
+
+  footer {
+    padding: 3em 2em 2em;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width: 480px) {
+  .col-6 {
+    width: 100%;
+    display: block;
+  }
+
+  footer {
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+}
+
+.video iframe {
+  width: 795px;
+  height: 447px;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=DM+Serif+Display&family=Monoton&family=Paytone+One&family=Poppins:wght@300&display=swap");
 
 @media only screen and (max-width: 480px) {
   .info-desktop {
+    display: flex;
+  }
+  .video iframe {
+    width: 480px;
+    height: 247px;
+  }
+  .Volwassen {
+    background-image: url(Volwassen.png);
+    width: 400px;
+    height: 300px;
+    background-size: 400px;
+    background-position-y: -42px;
+    background-repeat: no-repeat;
+  }
+
+  .dropdown {
+    height: 10vh;
+    width: 32.5%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     display: none;
+  }
+
+  .logo img {
+    margin-left: -148px;
+    height: 75px;
+  }
+
+  .sov {
+    margin-top: 135px;
+  }
+
+  .social-links {
+    margin-top: 60px;
   }
 
   .info-mobil {
@@ -416,9 +1061,9 @@ main {
   }
 
   .logo img {
-    margin-left: -200px;
+    margin-left: -148px;
     height: 75px;
-    margin-top: -90px;
+    margin-top: -20px;
   }
 
   .container {
@@ -427,18 +1072,19 @@ main {
 
   .foto-2 img {
     height: 350px;
-    box-shadow: 10px 10px lightgray;
+    box-shadow: 10px 10px lihtgray;
+    margin-right: 10px;
   }
 
   .main-text {
     font-family: "Acme", sans-serif;
     color: rgb(19, 19, 19);
-    font-size: 9.5px;
+    font-size: 11px;
     display: flex;
     justify-content: center;
     letter-spacing: 2px;
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .Beeldatelier {
@@ -451,12 +1097,8 @@ main {
     display: none;
   }
 
-  .info,
-  p {
-    display: flex;
-    justify-content: center;
-    font-size: 18px;
-    font-family: "Acme", sans-serif;
+  .info p {
+    font-size: 21px;
     margin-top: 30px;
   }
 

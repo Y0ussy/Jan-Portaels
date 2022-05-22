@@ -6,12 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | Kunstacademie Vilvoorde</title>
 
+    
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Acme&family=DM+Serif+Display&family=Monoton&family=Paytone+One&family=Poppins:wght@300&display=swap"
       rel="stylesheet"
     />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Nanum+Gothic:700|Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="StyleiTechFooter.css" />
 
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
@@ -21,23 +34,32 @@
   </head>
 
   <body>
+
+   
+
+  
     <main>
       <div class="alles">
-        <div class="cursor"></div>
-        <!-- Dit geeft een kleurtje bij het bewegen van de muis -->
-
         <nav>
           <div class="logo">
+<<<<<<< HEAD
             <img src="jplogo.svg" alt="logo" />
+=======
+            <img src="jplogo.svg" alt="logo" /></a>
+>>>>>>> 87ba8b54429afff98784ec4f3dfa4d75ddfc70da
           </div>
 
           <div class="dropdown">
             <div class="ateliers">
               <button>Ateliers</button>
               <ul>
-                <li><a href="#">Beeldatelier voor jongeren</a></li>
-                <li><a href="#">Beeldatelier voor kinderen</a></li>
-                <li><a href="#">Opleidingen voor volwassenen</a></li>
+                <li>
+                  <a href="jongeren.html">Beeldatelier voor kinderen</a></li>
+                <li>
+                  <a href="kinderen.html">Beeldatelier voor jongeren</a></li>
+                <li>
+                  <a href="volwassenen.html">Opleidingen voor volwassenen</a>
+                </li>
               </ul>
             </div>
 
@@ -79,6 +101,7 @@
           <div class="foto-1">
             <img src="Paashaas.png" alt="Paashaas" />
           </div>
+          
 
           <div class="foto-2">
             <img src="Vogel.png" alt="Vogel" />
@@ -112,20 +135,24 @@
         </div>
 
         <div class="Beeldatelier">
-          <div class="Jongeren">
-            <img src="Jong.png" alt="Jongeren" />
-            <div class="kaderr">Jongeren</div>
-          </div>
+          <figure class="Jongeren">
+            <a href="jongeren.html">
+            <div class="kaderrrr">Kinderen</div>
+          </a>
+          </figure>
 
-          <div class="Kinderen">
-            <img src="Kinderen.png" alt="Kinderen" />
-            <div class="kaderrr">Kinderen</div>
-          </div>
+          <figure class="Kinderen">
+            <a href="kinderen.html">
+              <div class="kaderrrr">Jongeren</div>
+          </a>
+          </figure>
 
-          <div class="Volwassen">
-            <img src="Volwassen.png" alt="Volwassen" />
+         <figure class="Volwassen">
+           <a href="volwassenen.html">
             <div class="kaderrrr">Volwassenen</div>
-          </div>
+          </a>
+          </figure>
+        
         </div>
 
         <div class="graad">
@@ -138,8 +165,6 @@
 
         <div class="video">
           <iframe
-            width="795"
-            height="447"
             src="https://www.youtube.com/embed/Ap0JMKn4HDU"
             title="YouTube video player"
             frameborder="0"
@@ -147,7 +172,115 @@
             allowfullscreen
           ></iframe>
         </div>
+        
       </div>
     </main>
+
+    <footer>
+      <div class="row">
+        <div class="col-3">
+          <div class="link-cat" onclick="footerToggle(this)">
+            <span class="footer-toggle"></span>
+            <span class="footer-cat">Recente post</span>
+          </div>
+          <ul class="footer-cat-links">
+            <li>
+              <a href=""><span>Nieuwe Corona maatregelen</span></a>
+            </li>
+            <li>
+              <a href=""><span>Gratis teken en schilder initiatie</span></a>
+            </li>
+            <li>
+              <a href=""><span>Grafiek initiatie</span></a>
+            </li>
+            <li>
+              <a href=""><span>Coronamaatregelen opstart schooljaar</span></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-3">
+          <div class="link-cat" onclick="footerToggle(this)">
+            <span class="footer-toggle"></span>
+            <span class="footer-cat">Contact</span>
+          </div>
+          <ul class="footer-cat-links">
+            <li>
+              <a href=""><span>Spiegelstraat 62, 1800 Vilvoorde</span></a>
+            </li>
+            <li>
+              <a href=""><span>02/251.51.51</span></a>
+            </li>
+            <li>
+              <a href=""><span>Directie</span></a>
+            </li>
+            <li>
+              <a href=""><span>Secretariaat</span></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-3">
+          <div class="link-cat" onclick="footerToggle(this)">
+            <span class="footer-toggle"></span>
+            <span class="footer-cat">Praktisch</span>
+          </div>
+          <ul class="footer-cat-links">
+            <li>
+              <a href=""><span>Inschrijven</span></a>
+            </li>
+            <li>
+              <a href=""><span>Lessenrooster</span></a>
+            </li>
+            <li>
+              <a href=""><span>Tarieven</span></a>
+            </li>
+            <li>
+              <a href=""><span>Reglement</span></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-3" id="newsletter">
+          <span>Volg ons!</span>
+          
+          <form id="subscribe">
+            <input
+              type="email"
+              id="subscriber-email"
+              placeholder="Enter Email Address"/>
+            <input type="submit" value="Abonneer" id="btn-scribe" />
+          </form>
+
+          <div class="social-links social-2">
+            <a
+              href="https://www.facebook.com/pages/category/School/Stedelijke-Academie-voor-Beeldende-Kunsten-Jan-Portaels-397988950246649/"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/accounts/login/?next=/academiejanportaels/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+
+          <div class="sov">
+            <img src="sov.svg" alt="sovlogo" />
+          </div>
+        </div>
+        <div class="social-links social-1 col-6">
+          <a
+            href="https://www.facebook.com/pages/category/School/Stedelijke-Academie-voor-Beeldende-Kunsten-Jan-Portaels-397988950246649/"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/accounts/login/?next=/academiejanportaels/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+      <div id="copyright">&copy; Gemaakt door Youssef Auassar</div>
+    </footer>
+
+    
   </body>
 </html>

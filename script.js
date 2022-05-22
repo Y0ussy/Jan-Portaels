@@ -14,3 +14,11 @@ document.addEventListener("click", () => {
     cursor.classList.remove("expand");
   }, 500);
 });
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> 87ba8b54429afff98784ec4f3dfa4d75ddfc70da
