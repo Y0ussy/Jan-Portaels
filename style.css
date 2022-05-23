@@ -16,37 +16,21 @@
   box-sizing: border-box;
 }
 
-.water {
-  max-width: 600px;
-  height: 500px;
-  position: relative;
-  background-size: cover;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  border-radius: 30px;
-  margin: 0 auto;
+
+
+.page-content {
+
+  padding: 98px;
+  margin-top: -45px;
+  display: flex;
+  justify-content: space-between;
+
+
 }
 
-.fish {
-  max-width: 100%;
-  height: auto;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  height: 300px;
-  -webkit-transform: translate(-50%, -50%) translateZ(50px);
-  -moz-transform: translate(-50%, -50%) translateZ(50px);
-  -ms-transform: translate(-50%, -50%) translateZ(50px);
-  -o-transform: translate(-50%, -50%) translateZ(50px);
-  transform: translate(-50%, -50%) translateZ(50px);
-}
+.wa-block-table {
 
-
-.inschrijving-tarief {
-  font-size: 20px;
-  margin-top: 20px;
-  margin-left: 98px;
-
+  margin-right: 475px;
 }
 
 .tarieven h1 {
