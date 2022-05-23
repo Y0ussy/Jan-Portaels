@@ -18,20 +18,16 @@
 
 
 
-.page-content {
-
-  padding: 98px;
-  margin-top: -45px;
-  display: flex;
-  justify-content: space-between;
-
+.info-naam {
+  font-size: 15px;
+  font-family: "Acme", sans-serif;
+  margin-left: 100px;
+  margin-top: 50px;
+  text-decoration: underline;
 
 }
 
-.wa-block-table {
 
-  margin-right: 475px;
-}
 
 .tarieven h1 {
   font-size: 29px;
